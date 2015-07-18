@@ -1,1 +1,48 @@
-apply plugin "java"
+//声明andoird 工程
+
+apply plugin :"com.android.application"
+
+buildscript{
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+
+    }
+
+    tasks.withType(JavaCompile) { options.encoding = "UTF-8" }
+}
+
+
+dependencies  {
+    compile files('libs/android-support-v4.jar')
+}
+
+android{
+
+    compileSdkVersion 19
+    buildToolsVersion '21.1.2'
+
+    defaultConfig {
+        minSdkVersion 17
+        targetSdkVersion 19
+    }
+
+
+    lintOptions {
+        abortOnError false
+    }
+
+    sourceSets{
+        main{
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs  = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+    }
+}

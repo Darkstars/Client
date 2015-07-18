@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\study\Javaa\资源\stitp\Client\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ded9acc6a9792b8f1afc470f0c9cd36d178914cd">
+        <dex dex="F:\study\Javaa\资源\stitp\Client\build\intermediates\pre-dexed\debug\android-support-v4-4fb41dad048e0d37e7c7c479dbf958697dc3a478.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<com.zhang.book.SearchBookContentsListItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/standard_padding">
+
+  <TextView android:id="@+id/page_number_view"
+            android:layout_width="75dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginRight="@dimen/standard_padding"
+            android:singleLine="false"
+            android:textStyle="bold"/>
+
+  <TextView android:id="@+id/snippet_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:singleLine="false"/>
+
+</com.zhang.book.SearchBookContentsListItem>
+<!-- From: file:/F:/study/Javaa/资源/stitp/Client/res/layout/search_book_contents_list_item.xml -->

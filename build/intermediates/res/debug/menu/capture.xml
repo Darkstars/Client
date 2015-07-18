@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <!--<item android:id="@+id/menu_send"-->
+        <!--android:title="@string/menu_send"-->
+        <!--android:icon="@android:drawable/ic_menu_recent_history"-->
+        <!--android:orderInCategory="1"-->
+        <!--android:showAsAction="withText|ifRoom"/>-->
+  <item android:id="@+id/menu_history"
+        android:title="@string/menu_history"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:orderInCategory="2"
+        android:showAsAction="withText|ifRoom"/>
+  <item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="3"
+        android:showAsAction="withText"/>
+  <item android:id="@+id/menu_help"
+        android:title="@string/menu_help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:orderInCategory="4"
+        android:showAsAction="withText"/>
+</menu><!-- From: file:/F:/study/Javaa/资源/stitp/Client/res/menu/capture.xml -->

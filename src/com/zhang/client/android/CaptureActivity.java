@@ -150,14 +150,11 @@ public final class CaptureActivity extends Activity implements
 		viewfinderView = (ViewfinderView) findViewById(R.id.viewfinder_view);
 		viewfinderView.setCameraManager(cameraManager);
 		resultView = findViewById(R.id.result_view);
-		// 状态锟斤拷图
 		statusView = (TextView) findViewById(R.id.status_view);
 
 		handler = null;
 		lastResult = null;
-		// 锟斤拷锟斤拷状态锟斤拷图
 		resetStatusView();
-		// 锟揭碉拷锟斤拷锟皆わ拷锟斤拷锟斤拷妫拷锟斤拷锟斤拷锟接回碉拷锟斤拷时锟戒处锟斤拷锟斤拷
 		SurfaceView surfaceView = (SurfaceView) findViewById(R.id.preview_view);
 		SurfaceHolder surfaceHolder = surfaceView.getHolder();
 		if (hasSurface) {

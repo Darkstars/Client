@@ -65,11 +65,11 @@ public final class CaptureActivityHandler extends Handler {
         Log.d(TAG, "Got restart preview message");
         restartPreviewAndDecode();
         break;
-        //解析成功
+
       case R.id.decode_succeeded:
         Log.d(TAG, "Got decode succeeded message");
         state = State.SUCCESS;
-        Bundle bundle = message.getData();  //获得解析数据
+        Bundle bundle = message.getData();  //锟斤拷媒锟斤拷锟斤拷锟斤拷
         Bitmap barcode = null;
         float scaleFactor = 1.0f;
         if (bundle != null) {
